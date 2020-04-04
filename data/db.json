@@ -1,0 +1,53 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "category": "Movie",
+      "name": "drama",
+      "display_name": "sewu lesewu",
+      "description": "A family drama movie."
+    },
+    {
+      "id": "2",
+      "name": "Clothing Shope",
+      "display_name": "Man's and women's clothing shope",
+      "description": "clothing to any type of age and size."
+    },
+    {
+      "id": "3",
+      "name": "Movie",
+      "display_name": "Hollywood",
+      "description": "All type of movies. action,advanture,dram e.t.c"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "category": "beverage",
+      "name": "coca-cola",
+      "display_name": "coca-cola",
+      "description": "manufacturer and marketer of non-alcholic beverage."
+    },
+    {
+      "id": "2",
+      "category": "Clothing Shope",
+      "name": "Pure fashion",
+      "display_name": "man's fasion ",
+      "description": "most of the products are 100 % cotton and easy to wash"
+    },
+    {
+      "id": "3",
+      "category": "Movie",
+      "name": "Action",
+      "display_name": "spider man",
+      "description": "Spider -man has spide -like abilities including superhuman strength and the ability to cling to most surfaces."
+    },
+    {
+      "id": "4",
+      "category": "Movie",
+      "name": "drama",
+      "display_name": "sewu lesewu",
+      "description": "A family drama movie."
+    }
+  ]
+}
