@@ -25,6 +25,8 @@
   },
   "homepage": "https://github.com/henok-401-javascript/lab-07-Express#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "@code-fellows/supergoose": "^1.0.2",
+    "express": "^4.17.1",
+    "superagent": "^5.2.2"
   }
 }
