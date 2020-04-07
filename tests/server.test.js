@@ -1,12 +1,13 @@
 'use strict';
 const app = require('../lib/server.js');
-// const superagent = require('superagent');
+// const wrongRoute = require('../lib/ middleware/404.js');
+// const logger = require('../lib/ middleware/logger.js');
 
 const supergoose = require('@code-fellows/supergoose');
 
 const mockRequest = supergoose(app.server);
 
-describe('categories rout ', () => {
+describe('categories route ', () => {
   it('Category', async () => {
     let response = await mockRequest.get('/categories');
     // console.log('categoryyyyyy', response.body);
@@ -37,8 +38,8 @@ describe('categories rout ', () => {
   });
 });
 
-describe('production rout', () => {
-  it('product', async () => {
+describe('production route', () => {
+  it('GET/product', async () => {
     let response = await mockRequest.get('/products');
     console.log('productttttt', response.body);
     expect(JSON.stringify(response.body)).toBe(
@@ -75,6 +76,17 @@ describe('production rout', () => {
       ]),
     );
     expect(response.status).toBe(200);
+  });
+  it('POST/products', async () => {
+    let response = await mockRequest.post('/products');
+    expect(JSON.stringify()).toBe();
+  });
+});
+
+describe('MiddleWare ', () => {
+  it('404 ', async () => {
+    let response = await mockRequest.get('/henok');
+    expect(response.status).toBe(404);
   });
 });
 
