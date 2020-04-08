@@ -8,7 +8,7 @@ const supergoose = require('@code-fellows/supergoose');
 const mockRequest = supergoose(app.server);
 
 describe('categories route ', () => {
-  it('Category', async () => {
+  it('GET/Category', async () => {
     let response = await mockRequest.get('/categories');
     // console.log('categoryyyyyy', response.body);
     expect(JSON.stringify(response.body)).toBe(
@@ -79,7 +79,7 @@ describe('production route', () => {
   });
   it('POST/products', async () => {
     let response = await mockRequest.post('/products');
-    expect(JSON.stringify()).toBe();
+    expect(JSON.stringify(true)).toBe(false);
   });
 });
 
