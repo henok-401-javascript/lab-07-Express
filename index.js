@@ -1,7 +1,7 @@
-'use strict';
+"use strict";
 
-const app = require('./lib/server.js');
-let serverPort = 8080;
-serverPort = process.env.serverPort;
+const app = require("./lib/server.js");
 
-app.start(3000 || serverPort);
+let PORT = process.env.PORT || 3000;
+
+app.start(PORT);
