@@ -26,8 +26,12 @@
   "homepage": "https://github.com/henok-401-javascript/lab-07-Express#readme",
   "dependencies": {
     "@code-fellows/supergoose": "^1.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "superagent": "^5.2.2",
-    "express-swagger-generator": "^1.1.17"
+    "express-swagger-generator": "^1.1.17",
+    "mongoose": "^5.9.7",
+    "morgan": "^1.10.0",
+    "superagent": "^5.2.2"
   }
 }
