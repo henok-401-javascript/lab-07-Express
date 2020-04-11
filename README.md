@@ -1,6 +1,6 @@
-# lab-07-Express
+# Lab 08 — Express Routing & Connected API
 
-## Project Name : lab-07-Express
+## Project Name : Lab 08 — Express Routing & Connected API
 
 ### Author: Henok Gebremedhn
 
@@ -20,12 +20,12 @@
 
 #### How to initialize/run your application (where applicable)
 
-- json-server --watch ./data/db.json
+- mongod --dbpath ./data/db // to start my mongoDB locally
 - EndPoint:'/1'
   return By Id of 1.
-- EndPoing:'/categorySchema'
+- EndPoing:'/categories'
   return by all the categoryListed from the inventory.
-- EndPoing:'/productsSchema'  
+- EndPoing:'/products'  
    return by all the productsSchema from the inventory.
 
 #### Tests
@@ -35,4 +35,4 @@
 
 #### UML
 
-![UML Diagram](./assets/images/localhost.jpg)
+![UML Diagram](./assets/images/routes-and-api.jpg)
