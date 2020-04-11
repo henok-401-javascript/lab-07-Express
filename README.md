@@ -10,7 +10,7 @@
 
 ### DOCUMENTATION
 
-[Swagger Hub](http://localhost:3001/api-docs#/)
+[Swagger Hub](http://localhost:3000/api-docs)
 
 ### Setup
 
