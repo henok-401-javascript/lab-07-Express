@@ -17,7 +17,7 @@
 
 #### `.env` requirements (where applicable)
 
-- `PORT` - json-server --watch ./data/db.json
+- `PORT` - json-server --watch ./data/db
 
 #### How to initialize/run your application (where applicable)
 
