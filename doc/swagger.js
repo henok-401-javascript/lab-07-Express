@@ -27,10 +27,9 @@ const swaggerDocument = app => {
       },
     },
     basedir: __dirname, //app absolute path
-    files: ['../lib/server.js'], //Path to the API handle folder
+    files: ['../lib/server.js', '../lib/routes/*'], //Path to the API handle folder
   };
   expressSwagger(options);
-  
 };
 
 module.exports = swaggerDocument;
